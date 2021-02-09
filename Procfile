@@ -1,1 +1,1 @@
-web: java -jar target/sayajines-1.0.0.jar
+web: java -Dserver.port=$PORT -jar target/app-1.0.0-BUILD-SNAPSHOT.war
